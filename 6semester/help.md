@@ -5,6 +5,7 @@ Assembly: try hard by looking for code
 Coursework-Stetsenko (Tech of Parallel Computing):  
 [bellman-ford with java and threads](https://github.com/genndy007/bellman_ford_rethink)  
 [insertion-sort with java and mpi - mpjexpress](https://github.com/genndy007/insertion_sort_mpi)  
+[prufer code with java](https://github.com/ilkrbk/prufer-code-parallel)  
 [dijkstra with cpp and boost](https://github.com/vvkin/parallel-dijkstra)  
 [semi-scifi cppboost thing](https://github.com/ShkarupaDC/parallel-gradient-descent)
 
