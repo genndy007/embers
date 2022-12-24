@@ -18,7 +18,7 @@ Economics of IT (Sidorov, Rodionov):
 [my reports]()
 
 Mobile Computer Networks (Kulakov, Shchur):         
-[my reports]()
+in folder this
 
 Juniper (Myronov):       
 in folder this 

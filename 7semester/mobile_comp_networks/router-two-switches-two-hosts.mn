@@ -1,0 +1,110 @@
+{
+    "application": {
+        "dpctl": "",
+        "ipBase": "192.168.0.0/24",
+        "netflow": {
+            "nflowAddId": "0",
+            "nflowTarget": "",
+            "nflowTimeout": "600"
+        },
+        "openFlowVersions": {
+            "ovsOf10": "1",
+            "ovsOf11": "0",
+            "ovsOf12": "0",
+            "ovsOf13": "0"
+        },
+        "sflow": {
+            "sflowHeader": "128",
+            "sflowPolling": "30",
+            "sflowSampling": "400",
+            "sflowTarget": ""
+        },
+        "startCLI": "0",
+        "switchType": "ovs",
+        "terminalType": "xterm"
+    },
+    "controllers": [],
+    "hosts": [
+        {
+            "number": "1",
+            "opts": {
+                "defaultRoute": "192.168.1.1",
+                "hostname": "h1",
+                "ip": "192.168.1.10/24",
+                "nodeNum": 1,
+                "sched": "host"
+            },
+            "x": "115.0",
+            "y": "142.0"
+        },
+        {
+            "number": "2",
+            "opts": {
+                "defaultRoute": "192.168.2.1",
+                "hostname": "h2",
+                "ip": "192.168.2.10/24",
+                "nodeNum": 2,
+                "sched": "host"
+            },
+            "x": "118.0",
+            "y": "255.0"
+        }
+    ],
+    "links": [
+        {
+            "dest": "s2",
+            "opts": {},
+            "src": "h1"
+        },
+        {
+            "dest": "s3",
+            "opts": {},
+            "src": "h2"
+        },
+        {
+            "dest": "r1",
+            "opts": {},
+            "src": "s2"
+        },
+        {
+            "dest": "r1",
+            "opts": {},
+            "src": "s3"
+        }
+    ],
+    "switches": [
+        {
+            "number": "3",
+            "opts": {
+                "controllers": [],
+                "hostname": "s3",
+                "nodeNum": 3,
+                "switchType": "legacySwitch"
+            },
+            "x": "272.0",
+            "y": "256.0"
+        },
+        {
+            "number": "1",
+            "opts": {
+                "hostname": "r1",
+                "nodeNum": 1,
+                "switchType": "legacyRouter"
+            },
+            "x": "410.0",
+            "y": "193.0"
+        },
+        {
+            "number": "2",
+            "opts": {
+                "controllers": [],
+                "hostname": "s2",
+                "nodeNum": 2,
+                "switchType": "legacySwitch"
+            },
+            "x": "268.0",
+            "y": "135.0"
+        }
+    ],
+    "version": "2"
+}
