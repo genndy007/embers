@@ -21,4 +21,4 @@ Mobile Computer Networks (Kulakov, Shchur):
 [my reports]()
 
 Juniper (Myronov):       
-[my labs]()
+in folder this 
